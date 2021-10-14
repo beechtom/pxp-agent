@@ -9,6 +9,12 @@ struct ParsedChunks;
 class Schema;
 }  // namespace PCPClient
 
+namespace leatherman {
+  namespace logging {
+    enum class log_level;
+  }
+}
+
 namespace PXPAgent {
 
 class ActionRequest;
